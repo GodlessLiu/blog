@@ -16,7 +16,7 @@ projects:
     link: https://www.bilibili.com/
     desc: 让我增长知识的小破站
     icon: link
-  - name: stackoverflow
+  - name: stackOverflow
     link: https://stackoverflow.com/
     desc: 有问题就去哪儿
     icon: link
