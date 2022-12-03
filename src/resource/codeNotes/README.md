@@ -1,6 +1,7 @@
 ---
 # 当前页面内容标题
 title: 代码笔记
+icon: icon-WEBqianduan
 # 分类
 category:
   - code

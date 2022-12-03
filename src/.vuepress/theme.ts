@@ -10,7 +10,7 @@ export default hopeTheme({
     email: "2788370451@qq.com",
   },
   // 字体link
-  iconAssets: "//at.alicdn.com/t/c/font_3805211_ls0ktnmffsi.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3805211_yii8tkt3tjd.css",
   logo: "/logo.png",
   repo: "https://github.com/GodlessLiu",
   darkmode: "toggle",
