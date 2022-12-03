@@ -33,4 +33,4 @@ jobs:
         pass: ${{ secrets.USER_PASS }}
         connect_timeout: 10s
         local: './src/.vuepress/dist/*'
-        remote: /usr/share/nginx/blog
+        remote: /usr/share/nginx/html/blog
