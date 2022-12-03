@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-52a9f9b2","path":"/category/%E5%AD%A6%E4%B9%A0/","title":"学习 分类","lang":"zh-CN","frontmatter":{"title":"学习 分类","blog":{"type":"category","name":"学习","key":"category"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"copyright":"著作权归所有","filePathRelative":null}');export{e as data};
