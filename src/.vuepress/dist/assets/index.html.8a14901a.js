@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4fc811ee","path":"/tag/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/","title":"前端基础 标签","lang":"zh-CN","frontmatter":{"title":"前端基础 标签","blog":{"type":"category","name":"前端基础","key":"tag"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"copyright":"著作权归所有","filePathRelative":null}');export{e as data};

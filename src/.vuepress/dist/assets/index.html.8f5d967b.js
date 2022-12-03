@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1eaeb558","path":"/category/%E5%BF%AB%E9%80%9F%E5%AF%BC%E8%88%AA/","title":"快速导航 分类","lang":"zh-CN","frontmatter":{"title":"快速导航 分类","blog":{"type":"category","name":"快速导航","key":"category"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"copyright":"著作权归所有","filePathRelative":null}');export{e as data};

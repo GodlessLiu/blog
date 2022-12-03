@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-01560935\",\"path\":\"/timeline/\",\"title\":\"时间轴\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"时间轴\",\"blog\":{\"type\":\"type\",\"key\":\"timeline\"},\"layout\":\"Blog\"},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"readingTime\":{\"minutes\":0,\"words\":0},\"copyright\":\"著作权归所有\",\"filePathRelative\":null}")

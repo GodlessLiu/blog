@@ -1,0 +1,1 @@
+export const sidebarData = {"/resource/codeNotes/":["README.md",{"text":"Javascript","prefix":"javascript/","collapsible":true,"children":["1.md"]},"one.md"],"/resource/diaries/":["README.md"],"/resource/major/computers/":["README.md"],"/resource/major/others/":["README.md"]};

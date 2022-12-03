@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.53" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <title>幻灯片页 | 小刘の学习笔记</title><meta name="description" content="小刘の学习笔记">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="preload" href="/assets/style.ccd893ad.css" as="style" /><link rel="stylesheet" href="/assets/style.ccd893ad.css" />
+    <link rel="modulepreload" href="/assets/app.952f23fe.js"><link rel="modulepreload" href="/assets/slides.html.36ecdf50.js"><link rel="modulepreload" href="/assets/_plugin-vue_export-helper.cdc0426e.js"><link rel="modulepreload" href="/assets/slides.html.87e02e5d.js">
+  </head>
+  <body>
+    <div id="app"><!--[--><!----><!----><!--]--></div>
+    <script type="module" src="/assets/app.952f23fe.js" defer></script>
+  </body>
+</html>
