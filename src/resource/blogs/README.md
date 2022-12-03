@@ -4,7 +4,7 @@ layout: Blog
 hero: true
 title: 博客首页
 bgImage: /blog/bg.png
-heroText: 小刘の学习笔记99
+heroText: 小刘の学习笔记
 tagline: 每天进步一点点
 heroFullScreen: true
 projects:
