@@ -81,6 +81,7 @@ export default hopeTheme({
       global: true,
     },
     mdEnhance: {
+      tasklist: true,
       // 添加选项卡支持
       tabs: true,
       // ==== 标记
