@@ -35,7 +35,7 @@ arr='[{"title":"Dromara","url":"https://gitee.com/dromara","desc":"孵化HuTool�
 
 ## 在线教程
 
-<NavCard arr='[{"title":"Electron","url":"https://www.electronjs.org/","desc":"electron官方文档","icon":"/navicon/electron.svg"},{"title":"Vite","url":"https://vitejs.cn/","desc":"Vite中文网","icon":"/navicon/vite.svg"},{"title":"Vue3","url":"https://vuejs.org/","desc":"Vue3官网","icon":"/navicon/vue.svg"},{"title":"React","url":"https://react.docschina.org/","desc":"React中文网","icon":"/navicon/react.ico"},{"title":"菜鸟教程","url":"https://www.runoob.com/","desc":"菜鸟在线教程","icon":"/navicon/runoob.ico"}]'></NavCard>
+<NavCard arr='[{"title":"Electron","url":"https://www.electronjs.org/","desc":"electron官方文档","icon":"/navicon/electron.svg"},{"title":"Vite","url":"https://vitejs.cn/","desc":"Vite中文网","icon":"/navicon/vite.svg"},{"title":"Vue3","url":"https://vuejs.org/","desc":"Vue3官网","icon":"/navicon/vue.svg"},{"title":"React","url":"https://react.docschina.org/","desc":"React中文网","icon":"/navicon/react.svg"},{"title":"菜鸟教程","url":"https://www.runoob.com/","desc":"菜鸟在线教程","icon":"/navicon/runoob.ico"}]'></NavCard>
 
 ## 文档相关
 

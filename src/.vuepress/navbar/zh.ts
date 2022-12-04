@@ -10,7 +10,7 @@ export const zhNavbar = navbar([
   {
     text: "代码笔记",
     icon: "daima",
-    link: "/resource/codeNotes/",
+    link: "/resource/codeNotes/git/1.html",
   },
   {
     text: "浮生杂记",

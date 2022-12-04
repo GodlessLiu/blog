@@ -299,38 +299,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "one",
+    "title": "日记初始化",
     "headers": [
       {
         "level": 2,
-        "title": "JavaScript",
-        "slug": "javascript",
-        "link": "#javascript",
+        "title": "这是一个浮生日记初始化的 markdown",
+        "slug": "这是一个浮生日记初始化的-markdown",
+        "link": "#这是一个浮生日记初始化的-markdown",
         "children": []
       }
     ],
-    "path": "/resource/codeNotes/one.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "笔记目录页",
-    "headers": [
-      {
-        "level": 2,
-        "title": "JavaScript",
-        "slug": "javascript",
-        "link": "#javascript",
-        "children": []
-      }
-    ],
-    "path": "/resource/codeNotes/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
     "path": "/resource/diaries/",
     "pathLocale": "/",
     "extraFields": []
@@ -350,13 +328,6 @@ export const searchIndex = [
         "title": "开源社区",
         "slug": "开源社区",
         "link": "#开源社区",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优质博客",
-        "slug": "优质博客",
-        "link": "#优质博客",
         "children": []
       },
       {
@@ -393,22 +364,241 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Javascript",
-    "headers": [],
-    "path": "/resource/codeNotes/javascript/1.html",
+    "title": "git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Git 发展过程",
+        "slug": "git-发展过程",
+        "link": "#git-发展过程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "基础操作",
+        "slug": "基础操作",
+        "link": "#基础操作",
+        "children": [
+          {
+            "level": 3,
+            "title": "初始化 Git",
+            "slug": "初始化-git",
+            "link": "#初始化-git",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "将文件添加到暂存区",
+            "slug": "将文件添加到暂存区",
+            "link": "#将文件添加到暂存区",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "将暂存区中的文件，提交到仓库中（注意不是推送到）。需要使用git commit：",
+            "slug": "将暂存区中的文件-提交到仓库中-注意不是推送到-。需要使用git-commit",
+            "link": "#将暂存区中的文件-提交到仓库中-注意不是推送到-。需要使用git-commit",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看提交历史",
+            "slug": "查看提交历史",
+            "link": "#查看提交历史",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "版本回退",
+            "slug": "版本回退",
+            "link": "#版本回退",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "分支管理",
+        "slug": "分支管理",
+        "link": "#分支管理",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看分支",
+            "slug": "查看分支",
+            "link": "#查看分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建分支",
+            "slug": "创建分支",
+            "link": "#创建分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "切换分支",
+            "slug": "切换分支",
+            "link": "#切换分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "合并分支",
+            "slug": "合并分支",
+            "link": "#合并分支",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除分支",
+            "slug": "删除分支",
+            "link": "#删除分支",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "远程仓库",
+        "slug": "远程仓库",
+        "link": "#远程仓库",
+        "children": [
+          {
+            "level": 3,
+            "title": "从远程仓库克隆",
+            "slug": "从远程仓库克隆",
+            "link": "#从远程仓库克隆",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加远程仓库",
+            "slug": "添加远程仓库",
+            "link": "#添加远程仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "推送本地的内容到远程仓库",
+            "slug": "推送本地的内容到远程仓库",
+            "link": "#推送本地的内容到远程仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "从远程仓库获取最新内容",
+            "slug": "从远程仓库获取最新内容",
+            "link": "#从远程仓库获取最新内容",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/resource/codeNotes/git/1.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "github action 自动化部署",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前言",
+        "slug": "前言",
+        "link": "#前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Github Actions",
+        "slug": "github-actions",
+        "link": "#github-actions",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "概念介绍",
+        "slug": "概念介绍",
+        "link": "#概念介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "部署示例",
+        "slug": "部署示例",
+        "link": "#部署示例",
+        "children": []
+      }
+    ],
+    "path": "/resource/codeNotes/git/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "javascript高级程序设计",
     "headers": [],
+    "path": "/resource/codeNotes/javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "mini-vue 源码",
+    "headers": [
+      {
+        "level": 2,
+        "title": "reactive",
+        "slug": "reactive",
+        "link": "#reactive",
+        "children": [
+          {
+            "level": 3,
+            "title": "主要功能",
+            "slug": "主要功能",
+            "link": "#主要功能",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "effect",
+        "slug": "effect",
+        "link": "#effect",
+        "children": []
+      }
+    ],
+    "path": "/resource/codeNotes/vue%E6%BA%90%E7%A0%81/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "计算机相关知识初始化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "这是一个计算机相关知识的初始化 markdown",
+        "slug": "这是一个计算机相关知识的初始化-markdown",
+        "link": "#这是一个计算机相关知识的初始化-markdown",
+        "children": []
+      }
+    ],
     "path": "/resource/major/computers/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
+    "title": "其他知识初始化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "这是一个其他相关知识的初始化 markdown",
+        "slug": "这是一个其他相关知识的初始化-markdown",
+        "link": "#这是一个其他相关知识的初始化-markdown",
+        "children": []
+      }
+    ],
     "path": "/resource/major/others/",
     "pathLocale": "/",
     "extraFields": []
@@ -484,9 +674,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "学习 分类",
+    "title": "代码管理 分类",
     "headers": [],
-    "path": "/category/%E5%AD%A6%E4%B9%A0/",
+    "path": "/category/%E4%BB%A3%E7%A0%81%E7%AE%A1%E7%90%86/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -498,23 +688,58 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "前端基础 分类",
+    "title": "读书笔记 分类",
     "headers": [],
-    "path": "/category/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/",
+    "path": "/category/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "学习 标签",
+    "title": "git 标签",
     "headers": [],
-    "path": "/tag/%E5%AD%A6%E4%B9%A0/",
+    "path": "/tag/git/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "前端基础 标签",
+    "title": "源码 分类",
     "headers": [],
-    "path": "/tag/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/",
+    "path": "/category/%E6%BA%90%E7%A0%81/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "自动化 标签",
+    "headers": [],
+    "path": "/tag/%E8%87%AA%E5%8A%A8%E5%8C%96/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "github 标签",
+    "headers": [],
+    "path": "/tag/github/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JavaScript 标签",
+    "headers": [],
+    "path": "/tag/javascript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue 标签",
+    "headers": [],
+    "path": "/tag/vue/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "源码 标签",
+    "headers": [],
+    "path": "/tag/%E6%BA%90%E7%A0%81/",
     "pathLocale": "/",
     "extraFields": []
   }
