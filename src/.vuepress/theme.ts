@@ -76,6 +76,8 @@ export default hopeTheme({
   },
   plugins: {
     copyright: {
+      hostname: "http://43.136.131.248:90/",
+      author: "V",
       global: true,
     },
     mdEnhance: {
