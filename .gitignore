@@ -1,3 +1,4 @@
 node_modules
 src/.vuepress/dist
 src/.vuepress/.cache
+depoly.js

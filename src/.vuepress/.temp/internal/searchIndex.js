@@ -544,6 +544,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "mini-webpack",
+    "headers": [],
+    "path": "/resource/codeNotes/mini-webpack/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "mini-vue 源码",
     "headers": [
       {
@@ -566,10 +573,104 @@ export const searchIndex = [
         "title": "effect",
         "slug": "effect",
         "link": "#effect",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "主要功能",
+            "slug": "主要功能-1",
+            "link": "#主要功能-1",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/resource/codeNotes/vue%E6%BA%90%E7%A0%81/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "yum 换源",
+    "headers": [
+      {
+        "level": 2,
+        "title": "查看自己已安装的 yum",
+        "slug": "查看自己已安装的-yum",
+        "link": "#查看自己已安装的-yum",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "删除已有的 yum",
+        "slug": "删除已有的-yum",
+        "link": "#删除已有的-yum",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载以下安装包",
+        "slug": "下载以下安装包",
+        "link": "#下载以下安装包",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装",
+        "slug": "安装",
+        "link": "#安装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "更改 yum 源",
+        "slug": "更改-yum-源",
+        "link": "#更改-yum-源",
+        "children": []
+      }
+    ],
+    "path": "/resource/codeNotes/%E9%97%AE%E9%A2%98%E6%94%B6%E5%BD%95/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "安装 nginx",
+    "headers": [
+      {
+        "level": 2,
+        "title": "创建 nginx 目录",
+        "slug": "创建-nginx-目录",
+        "link": "#创建-nginx-目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载 pre",
+        "slug": "下载-pre",
+        "link": "#下载-pre",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装 openssl 、zlib 、 gcc 依赖",
+        "slug": "安装-openssl-、zlib-、-gcc-依赖",
+        "link": "#安装-openssl-、zlib-、-gcc-依赖",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "安装 nginx",
+        "slug": "安装-nginx",
+        "link": "#安装-nginx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "启动 nginx",
+        "slug": "启动-nginx",
+        "link": "#启动-nginx",
+        "children": []
+      }
+    ],
+    "path": "/resource/codeNotes/%E9%97%AE%E9%A2%98%E6%94%B6%E5%BD%95/2.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -600,6 +701,13 @@ export const searchIndex = [
       }
     ],
     "path": "/resource/major/others/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "日记目标（2022/12/4）",
+    "headers": [],
+    "path": "/resource/diaries/%E6%AC%A1%E6%97%A5%E7%9B%AE%E6%A0%87/2022-12-4.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -716,6 +824,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "webpack 分类",
+    "headers": [],
+    "path": "/category/webpack/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "github 标签",
     "headers": [],
     "path": "/tag/github/",
@@ -726,6 +841,13 @@ export const searchIndex = [
     "title": "JavaScript 标签",
     "headers": [],
     "path": "/tag/javascript/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "webpack 标签",
+    "headers": [],
+    "path": "/tag/webpack/",
     "pathLocale": "/",
     "extraFields": []
   },
