@@ -1,6 +1,7 @@
+import { FC } from "react";
 import { Header } from "../components/Header";
 
-export default function Resume() {
+const Resume: FC = () => {
     return (
         <div className="bg-background text-foreground">
             <Header />
@@ -10,3 +11,5 @@ export default function Resume() {
         </div>
     );
 }
+
+export default Resume;

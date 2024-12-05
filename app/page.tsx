@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { FC } from "react";
 
-export default function Home() {
+const Home: FC = () => {
   return (
     <div className="h-screen flex justify-center items-center bg-background text-foreground gap-8">
       <Link href={"/blog"} className="btn">
@@ -12,3 +13,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home

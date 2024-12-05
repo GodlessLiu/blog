@@ -1,9 +1,8 @@
 import { FC } from "react";
-
-const Articles: FC = () => {
+const Blog: FC = () => {
     return <div>
-        blog
+        page
     </div>
 }
 
-export default Articles;
+export default Blog;

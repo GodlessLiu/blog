@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "@/themes/index.css";
 import Script from "next/script";
+import { LoadingBar } from "./components/LoadingProgressBar";
 
 export const metadata: Metadata = {
   title: "Hilary Liu",
@@ -31,6 +32,7 @@ export default function BasicLayout({
       <body
         className={`antialiased`}
       >
+        <LoadingBar />
         {children}
       </body>
     </html>
