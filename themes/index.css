@@ -1,0 +1,14 @@
+@import "./styles/tailwind.css";
+@import "./var/dark.css";
+@import "./var/light.css";
+
+::view-transition-new(root),
+::view-transition-old(root) {
+  animation: none;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}

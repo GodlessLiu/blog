@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .i-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: currentColor;
+    mask-size: cover;
+  }
+
+  .i-moon {
+    @apply i-icon;
+    mask: url("/moon.svg") no-repeat;
+  }
+
+  .i-sun {
+    @apply i-icon;
+    mask: url("/sun.svg") no-repeat;
+  }
+  .btn {
+    @apply border-b-2 border-transparent hover:border-foreground
+  }
+}
