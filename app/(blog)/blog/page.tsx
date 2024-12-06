@@ -1,7 +1,7 @@
 import { FC } from "react";
 const Blog: FC = () => {
     return <div>
-        page
+        Home
     </div>
 }
 
