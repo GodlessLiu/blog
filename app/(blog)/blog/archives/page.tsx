@@ -6,7 +6,7 @@ import Archiveitem from "./components/Archiveitem";
 export const dynamic = "force-dynamic";
 
 const Articles: FC = async () => {
-    const data = await fetch("http://127.0.0.1:3000/api/bff/notion", {
+    const data = await fetch("http://localhost:3000/api/bff/notion", {
         method: "GET"
     })
     const { data: archives = [] } = (await data.json()) as { data: ArchiveItemPost[] };
