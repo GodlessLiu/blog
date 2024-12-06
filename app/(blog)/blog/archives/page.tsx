@@ -2,14 +2,17 @@ import { ArchiveItemPost } from "@/app/types/blog/archives";
 import _ from "lodash";
 import { FC } from "react";
 import Archiveitem from "./components/Archiveitem";
+import { fetchData } from "@/app/utils/fetch";
 
 export const dynamic = "force-dynamic";
 
 const Articles: FC = async () => {
-    const data = await fetch("http://localhost:3000/api/bff/notion", {
+    const { data: archives = [] } = await fetchData<{ data: ArchiveItemPost[] }>("/api/bff/notion", {
         method: "GET"
     })
-    const { data: archives = [] } = (await data.json()) as { data: ArchiveItemPost[] };
+    if (!archives) {
+        return <div>loading...</div>
+    }
     return <div className="pt-20">
         {
             _.map(archives, a => (
