@@ -1,6 +1,5 @@
 'use client' // Error boundaries must be Client Components
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
 export default function Error({

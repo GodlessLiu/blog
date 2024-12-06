@@ -15,7 +15,7 @@ export default function BasicLayout({
 }>) {
   return (
     <html lang="en">
-      <Script>
+      <Script id="theme-init">
         {
           `
           // init theme

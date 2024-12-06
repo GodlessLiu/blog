@@ -4,15 +4,16 @@ import { MouseEvent, useEffect } from "react";
 
 export const ToggleTheme = () => {
 
-    const [theme, setTheme] = useLocalStorageState("hl-theme", { defaultValue: "dark",
-        serializer(value){
-            if(typeof value === "string") return value
+    const [theme, setTheme] = useLocalStorageState("hl-theme", {
+        defaultValue: "dark",
+        serializer(value) {
+            if (typeof value === "string") return value
             return JSON.stringify(value)
         },
         deserializer(value) {
             return value
         },
-     });
+    });
 
     // Credit to [@antfu](https://github.com/antfu)
     const toggleTheme = (event: MouseEvent<HTMLButtonElement>) => {
@@ -59,7 +60,7 @@ export const ToggleTheme = () => {
     };
 
     useEffect(() => {
-        theme === "dark" ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark");
+        return theme === "dark" ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark");
     }, [theme])
 
     return <button onClick={toggleTheme} className="leading-3">
