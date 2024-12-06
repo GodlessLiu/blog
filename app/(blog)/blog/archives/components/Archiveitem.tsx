@@ -1,6 +1,5 @@
 import { ArchiveItemPost } from "@/app/types/blog/archives";
 import Link from "next/link";
-import dayjs from "dayjs";
 import { FC } from "react";
 import { formateYYYYMMDD } from "@/app/utils/time";
 
