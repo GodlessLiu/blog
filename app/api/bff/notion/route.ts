@@ -8,13 +8,13 @@ const notion = new Client({
 })
 
 // 获取所有文章 TODO: 分页[加载更多]
-export async function GET(request: Request) {
+export async function GET() {
     const data = (await notion.databases.query({
         database_id: process.env.PAGE_ID!,
         sorts: [
             {
                 "timestamp": "created_time",
-                "direction": "ascending"
+                "direction": "descending"
             }
         ]
     }))

@@ -14,7 +14,7 @@ export default function BlogLayout({
     return (
         <>
             <Header />
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-2xl p-4">
                 {children}
             </div>
         </>
