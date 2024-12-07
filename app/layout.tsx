@@ -33,7 +33,6 @@ export default function BasicLayout({
       <body
         className={`antialiased`}
       >
-        123
         <LoadingBar />
         {children}
       </body>

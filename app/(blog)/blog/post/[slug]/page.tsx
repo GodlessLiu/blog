@@ -18,7 +18,6 @@ const Post: FC<PostProps> = async ({ params }) => {
     const slug = (await params).slug;
     const data = (await fetchData(`/api/bff/notion/post/${slug}`, {
         method: "GET",
-        cache: "force-cache"
     })) as PostResponse
     if (!data) return <div>Post not found</div>
 
