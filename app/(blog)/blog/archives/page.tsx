@@ -13,7 +13,7 @@ const Articles: FC = async () => {
     if (!archives) {
         return <div>loading...</div>
     }
-    return <div className="pt-20">
+    return <div className="pt-20 max-w-2xl mx-auto">
         {
             _.map(archives, a => (
                 <Archiveitem title={a.title} last_edited_time={a.last_edited_time} key={a.id} id={a.id} />
