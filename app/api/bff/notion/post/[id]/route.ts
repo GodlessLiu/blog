@@ -13,7 +13,7 @@ export async function GET(request: Request,
   const mdString = n2m.toMarkdownString(mdblocks);
     return Response.json({
         // TODO: only return the parent content
-        // @ts-expect-error
+        // @ts-expect-error none
         title: info.properties.title.title[0].plain_text,
         create_time: info.created_time,
         last_edit_time: info.last_edited_time,
