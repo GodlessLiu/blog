@@ -13,6 +13,7 @@ export default function BasicLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <Script id="theme-init">

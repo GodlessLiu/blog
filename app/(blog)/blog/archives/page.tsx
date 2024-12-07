@@ -7,7 +7,7 @@ import { fetchData } from "@/app/utils/fetch";
 export const dynamic = "force-dynamic";
 
 const Articles: FC = async () => {
-    const { data: archives = [] } = await fetchData<{ data: ArchiveItemPost[] }>("/api/bff/notion", {
+    const { data: archives = [] } = await fetchData<{ data: ArchiveItemPost[] }>("/api/bff/notion/archives", {
         method: "GET"
     })
     if (!archives) {
