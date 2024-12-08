@@ -31,7 +31,7 @@ const Post: FC<PostProps> = async ({ params }) => {
                 }} />
             </div>
         }
-        <article className="max-w-4xl mt-4 mx-auto">
+        <article className="max-w-4xl mt-4 mx-auto pb-10">
             <p className="text-3xl font-bold mb-2">{data.title}</p>
             <div className="flex gap-2 items-center mb-8 flex-wrap">
                 <CiClock1 />
