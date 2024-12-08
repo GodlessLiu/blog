@@ -1,3 +1,6 @@
+/**
+ * 为文章添加了cache，每半小时会刷新cache，不是实时的
+ */
 import { PostResponse } from "@/app/types/blog/post";
 import { fetchData } from "@/app/utils/fetch";
 import { formateYYYYMMDD } from "@/app/utils/time";
@@ -9,6 +12,7 @@ import "@/themes/styles/markdown.css"
 import { Markdown } from "@/app/components/Markdown";
 import { Metadata } from "next";
 import { getBlockInfo } from "@/app/api/bff/notion/post/[id]/route";
+import Back from "@/app/components/Back";
 
 interface PostProps {
     params: {
@@ -30,6 +34,7 @@ const Post: FC<PostProps> = async ({ params }) => {
     const slug = (await params).slug;
     const data = (await fetchData(`/api/bff/notion/post/${slug}`, {
         method: "GET",
+        next: { revalidate: 10, tags: ["post"] }
     })) as PostResponse
     if (!data) return <div>Post not found</div>
 
@@ -58,7 +63,8 @@ const Post: FC<PostProps> = async ({ params }) => {
                     {_.map(data.tags, (tag) => <span className="py-2 mx-1 rounded-sm" key={tag.label} style={{ color: tag.color || "var(--foreground)" }}>#&nbsp;{tag.label}</span>)}
                 </span>
             </div>
-            <Markdown content={data.content} />
+            <Markdown content={data.content} className="mb-4" />
+            <Back className="pl-6" />
         </article>
     </div>
 }

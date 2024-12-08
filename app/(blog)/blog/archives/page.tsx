@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const Articles: FC = async () => {
     const { data: archives = [] } = await fetchData<{ data: ArchiveItemPost[] }>("/api/bff/notion/archives", {
-        method: "GET"
+        method: "GET",
     })
     if (!archives) {
         return <div>loading...</div>

@@ -1,0 +1,1 @@
+export const DEFAULT_REVALIDATE = 1800; // .5 hour

@@ -9,7 +9,7 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import tocbot from "tocbot";
 
-export const Markdown: FC<{ content?: string }> = ({ content = "" }) => {
+export const Markdown: FC<{ content?: string, className?: string }> = ({ content = "", className = "" }) => {
     useEffect(() => {
         // init lightGallery
         lightGallery(document.querySelector('.markdown-body')!, {
@@ -28,8 +28,8 @@ export const Markdown: FC<{ content?: string }> = ({ content = "" }) => {
         }
     }, [content])
     if (!content) return <div>There is no content to display</div>
-    return <>
-        <div className="fixed top-72 left-4 xl:inline-block hidden">
+    return <div className={className}>
+        <div className={`fixed top-72 left-4 xl:inline-block hidden`}>
             <p className="text-2xl font-bold">目录</p>
             <div className="toc">
 
@@ -54,7 +54,7 @@ export const Markdown: FC<{ content?: string }> = ({ content = "" }) => {
         >
             {content}
         </ReactMarkdown>
-    </>
+    </div>
 
 
 }
