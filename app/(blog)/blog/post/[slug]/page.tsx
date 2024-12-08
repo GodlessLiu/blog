@@ -7,10 +7,22 @@ import { FC } from "react";
 import { CiClock1, CiEdit } from "react-icons/ci";
 import "@/themes/styles/markdown.css"
 import { Markdown } from "@/app/components/Markdown";
+import { Metadata } from "next";
+import { getBlockInfo } from "@/app/api/bff/notion/post/[id]/route";
 
 interface PostProps {
     params: {
         slug: Promise<string>
+    }
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const slug = (await params).slug;
+    const info = await getBlockInfo(slug)
+    return {
+        // @ts-expect-error none
+        title: (info.properties.title.title[0].plain_text || "Post").concat(" - Hilary Liu's Blog"),
+        authors: [{ name: "Hilary Liu", url: "https://github.com/GodlessLiu" }]
     }
 }
 

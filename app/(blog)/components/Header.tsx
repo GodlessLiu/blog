@@ -8,11 +8,11 @@ import { FC } from "react";
 
 const blogNavs = [
     {
-        name: 'Home',
+        name: '首页',
         href: '/blog'
     },
     {
-        name: 'Archives',
+        name: '归档',
         href: '/blog/archives'
     }
 ]

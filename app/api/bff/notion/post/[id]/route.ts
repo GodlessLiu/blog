@@ -3,12 +3,18 @@ import {notion} from "@/app/api/bff/notion/archives/route"
 import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 import _ from "lodash";
 
+
+export const getBlockInfo = async (id: string) => {
+    const info = (await notion.pages.retrieve({ page_id: id })) as PageObjectResponse
+    return info
+}
+
 const n2m = new NotionToMarkdown({ notionClient: notion });
 // 获取对应block的md文件
 export async function GET(request: Request,
     { params }: { params: Promise<{ id: string }> }) {
     const id = (await params).id
-    const info = await notion.pages.retrieve({ page_id: id }) as PageObjectResponse
+    const info = await getBlockInfo(id)
     const mdblocks = await n2m.pageToMarkdown(id);
   const mdString = n2m.toMarkdownString(mdblocks);
     return Response.json({

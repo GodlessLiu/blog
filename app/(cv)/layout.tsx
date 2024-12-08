@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Hilary Liu - Resume",
+    title: "简历 - Hilary Liu's Resume",
     description: "Hilary Liu's Resume"
 }
 

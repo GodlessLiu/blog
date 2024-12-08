@@ -13,10 +13,10 @@ const Home: FC = () => {
         <ToggleTheme />
       </div>
       <Link href={"/blog"} className="btn">
-        Blog
+        博客
       </Link>
       <Link href={"/resume"} className="btn">
-        Resume
+        简历
       </Link>
     </div>
   );

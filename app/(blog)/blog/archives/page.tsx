@@ -3,8 +3,14 @@ import _ from "lodash";
 import { FC } from "react";
 import Archiveitem from "./components/Archiveitem";
 import { fetchData } from "@/app/utils/fetch";
+import { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+    title: "归档 - Hilary Liu's Blog",
+    description: "Archives of Hilary Liu's Blog"
+}
 
 const Articles: FC = async () => {
     const { data: archives = [] } = await fetchData<{ data: ArchiveItemPost[] }>("/api/bff/notion/archives", {
