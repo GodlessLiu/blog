@@ -3,6 +3,7 @@ import { fetchData } from "./utils/fetch";
 import { ArchiveItemPost } from "./types/blog/archives";
 import _ from "lodash";
 
+export const dynamic = "force-dynamic";
 export default async  function sitemap(): Promise<MetadataRoute.Sitemap> {
     const {data:archives} = await fetchData("/api/bff/notion/archives",{method:"GET"}) as {data:ArchiveItemPost[]}
     if(!archives) return []
