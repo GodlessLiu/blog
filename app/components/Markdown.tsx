@@ -21,7 +21,7 @@ export const Markdown: FC<{ content?: string }> = ({ content = "" }) => {
             headingSelector: 'h1, h2, h3',
             headingsOffset: 100,
             extraListClasses: "pl-3",
-            extraLinkClasses: "btn max-w-[200px] overflow-ellipsis overflow-hidden inline-block break-keep"
+            extraLinkClasses: "btn max-w-[200px] overflow-ellipsis overflow-hidden inline-block break-keep",
         })
         return () => {
             tocbot.destroy()
