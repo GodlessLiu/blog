@@ -43,7 +43,7 @@ const Post: FC<PostProps> = async ({ params }) => {
                     {formateYYYYMMDD(data.last_edit_time)}
                 </span>
                 <span>
-                    {_.map(data.tags, (tag) => <span className="py-2 mx-1 rounded-sm" key={tag.label} style={{ color: tag.color || "var(--foreground)" }}>#{tag.label}</span>)}
+                    {_.map(data.tags, (tag) => <span className="py-2 mx-1 rounded-sm" key={tag.label} style={{ color: tag.color || "var(--foreground)" }}>#&nbsp;{tag.label}</span>)}
                 </span>
             </div>
             <Markdown content={data.content} />
