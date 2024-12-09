@@ -5,7 +5,7 @@ import _ from "lodash";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FC } from "react";
-import { FaRss } from "react-icons/fa";
+import { RiRssLine } from "react-icons/ri";
 
 const blogNavs = [
     {
@@ -31,7 +31,7 @@ export const Header: FC = () => {
                 ))
             }
             <ToggleTheme />
-            <Link href={'/blog/feed.xml'} target="_blank"><FaRss /></Link>
+            <Link href={'/blog/feed.xml'} target="_blank" className="leading-[0px]"><RiRssLine /></Link>
         </div>
     </div>
 }
