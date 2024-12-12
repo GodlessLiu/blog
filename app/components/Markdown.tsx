@@ -39,7 +39,7 @@ export const Markdown: FC<{ content?: string, className?: string }> = ({ content
         <ReactMarkdown
             remarkPlugins={[[remarkHeadingId, { defaults: true }]]}
             rehypePlugins={[rehypeRaw]}
-            className="markdown-body toc-container prose max-w-none"
+            className="markdown-body toc-container px-8 py-4 prose max-w-none prose-headings:text-foreground"
             components={{
                 img: ({ node, ...props }) => {
                     if (!node) return
