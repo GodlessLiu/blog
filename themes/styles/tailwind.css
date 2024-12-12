@@ -23,7 +23,7 @@
   .btn {
     @apply border-b-2 border-transparent hover:border-foreground;
   }
- .is-active-link {
+  .is-active-link {
     @apply !border-b-2 !border-foreground;
   }
 }
