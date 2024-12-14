@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown"
 import remarkHeadingId from "remark-heading-id"
 import lightGallery from 'lightgallery';
 import rehypeRaw from "rehype-raw";
+import remarkGfm from "remark-gfm";
 // import styles
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
@@ -37,9 +38,9 @@ export const Markdown: FC<{ content?: string, className?: string }> = ({ content
             </div>
         </div>
         <ReactMarkdown
-            remarkPlugins={[[remarkHeadingId, { defaults: true }]]}
+            remarkPlugins={[[remarkHeadingId, { defaults: true }], [remarkGfm]]}
             rehypePlugins={[rehypeRaw]}
-            className="markdown-body toc-container px-8 py-4 prose max-w-none prose-headings:text-foreground"
+            className="toc-container px-8 py-4 max-w-none markdown markdown-body"
             components={{
                 img: ({ node, ...props }) => {
                     if (!node) return

@@ -4,6 +4,7 @@ import { FC } from "react";
 import Archiveitem from "./components/Archiveitem";
 import { fetchData } from "@/app/utils/fetch";
 import { Metadata } from "next";
+import ArchivesNotFound from "@/app/templates/archives-not-found";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +18,7 @@ const Articles: FC = async () => {
         method: "GET",
     })
     if (!archives) {
-        return <div>loading...</div>
+        return <ArchivesNotFound />
     }
     return <div className="pt-20 max-w-2xl mx-auto">
         {

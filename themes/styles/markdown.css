@@ -559,11 +559,14 @@
 .markdown-body ul,
 .markdown-body ol,
 .markdown-body dl,
-.markdown-body table,
 .markdown-body pre,
 .markdown-body details {
   margin-top: 0;
   margin-bottom: var(--base-size-16);
+}
+
+.markdown-body table {
+  margin: var(--base-size-16) auto;
 }
 
 .markdown-body blockquote > :first-child {
